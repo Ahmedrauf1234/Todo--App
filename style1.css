@@ -6,15 +6,6 @@
 *{
     font-family: 'Kanit', sans-serif;
 }
-/* ul{
-    border: 2px solid white;
-    width: 400px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-} */
 
 .list{
     color: black;
@@ -41,11 +32,22 @@
         width: 60px;
         font-size: 10px;
         padding: 5px;
-        
-
     }
 }
-
+@media (max-width: 400px){
+    .input{
+        width: 200px;
+        padding:1px;
+    }
+    .btn-1{
+        width: 50px;
+        font-size: 8px;
+        padding: 3px;
+    }
+    .head{
+        font-size: 2rem;
+    }
+}
 
 
 
